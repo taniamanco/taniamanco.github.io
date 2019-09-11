@@ -2,7 +2,7 @@
 layout: post
 title:  "Journey Begins!"
 date:   2019-08-27 21:43:00 -0400
-categories: mom-in-tech newbie-in-tech
+categories: from zero to tech
 ---
 Hey I’m Tania! I'm a 32-year-old mother of two rambunctious toddlers and a wife to Max. I have a lot on my plate right now, but I really wouldn't have it any other way. I'm following my dreams while taking care of the people that I love. Most days, I'm living my version of my best life. 
 

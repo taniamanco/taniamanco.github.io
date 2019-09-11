@@ -2,6 +2,7 @@
 layout: post
 title:  "Ruby Blocks"
 date:   2019-09-01 10:50:00 -0400
+categories: ruby yield blocks
 ---
 Ruby Coding Language
 The first time I heard about Ruby and saw the definition that it is an open-source programming language that focuses on simplicity and productivity, I thought it was just like any other scripting language. However, after getting down into the technical details, I came to discover that it had a few unique features which were a bit daunting. However, through this write-up, I will try to expound on this topic.
@@ -12,7 +13,7 @@ Yield Keyword
 When used inside the body of a method, the yield keyword can permit you to call the method at hand with a block of code and pass it over, or yield that block. Let’s think yield keyword as something that instructs you to stop executing the code in a given method, and instead, run the code in this block. Then, go back to the code in the method.
 
 For instance:
-{% highlight ruby %}
+```ruby
 def test_yield
     content = ""
 
@@ -22,7 +23,7 @@ def test_yield
     end
     content
 end
-{% endhighlight %}
+```
 
 The output will be as follows:
 Open file
@@ -32,7 +33,7 @@ When a method expects a block, it responds by calling the yield function. This i
 For instance:
 If i want to define a person classes initialized with a name; and provide a do with name method when invoked, would just pass the name attribute to the block received.
 
-{% highlight ruby %}
+```ruby
 class Person
     def initialize( name )
         @name = name
@@ -42,17 +43,17 @@ class Person
        yield( @name )
     end
 end
-{% endhighlight %}
+```
 
 
 This allows me to call this method and pass an arbitrary code block. For example, if I want to print a name;
-{% highlight ruby %}
+```ruby
 person = Person.new("Oscar")
 #invoking the method passing a block
 person.do_with_name do |name|
     puts "Hey, his name is #{name}"
 end
-{% endhighlight %}
+```
 And it would print:
 Hey, my name is Oscar.
 BEGIN and END Blocks
