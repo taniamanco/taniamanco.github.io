@@ -51,7 +51,7 @@ This allows me to call this method and pass an arbitrary code block. For example
 person = Person.new("Oscar")
 #invoking the method passing a block
 person.do_with_name do |name|
-    puts "Hey, his name is #{name}"
+    puts "Hey, my name is #{name}"
 end
 ```
 And it would print:
