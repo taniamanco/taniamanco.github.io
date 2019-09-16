@@ -2,7 +2,7 @@
 layout: post
 title:  "Learning to learn"
 date:   2019-09-14 08:05:00 -0400
-categories: mom in web developing school
+categories: mom in web development school
 ---
 
 The tech industry is growing, evolving, changing, and offering new, amazing opportunities for those who are invested in growing their own knowledge and abilities. 
