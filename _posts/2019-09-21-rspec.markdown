@@ -3,6 +3,7 @@ layout: post
 title:  "How to write a RSpec in Ruby"
 date:   2019-09-21 08:00:00 -0400
 categories: test driven
+published: false
 ---
 
 **How To Write A Spec Test**

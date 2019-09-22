@@ -1,0 +1,40 @@
+---
+layout: post
+title:  "Ruby on Rails part 1"
+date:   2019-09-24 08:00:00 -0400
+categories: Mom in tech getting familiar with ruby on rails
+published: false
+---
+
+**Week #8**
+
+We have been learning Ruby on Rails, and it's a bit so amazing. Rails is a development tool that gives us web developers a framework and structure for all the code we write. It helps us to build websites and applications because it abstracts and simplifies everyday repetitive tasks.
+ 
+It takes a while to learn Rails to be able to use it properly to build websites.
+ 
+Learning to code is hard, but I enjoy the challenge. It's just like learning a new language because that's what code is computer language. It allows us as developers to develop a style to make a computer behave a certain way.
+ 
+Learning a new language is also challenging but very rewarding, believe me, I do know what I'm talking about, English is my third language out of four.  It's like being allowed in on a secret of something new and exciting. When you start to understand it's like coming over a wall or having someone turn the lights on in a dark room. You go from not understanding to understanding and having 'Halleloya' moments. 
+ 
+My routine is getting better, and I have been able to manage my time and keep my life and my family's life on schedule. The boys are still enjoying their later bedtime, I think it makes them feel a bit more grown-up, and that makes me happy and sad, all at the same time. It means they are growing up and it's beautiful and scary to me.
+ 
+I'm enjoying the classes and the challenges of learning. It seemed like an impossible thing to learn at first, so I'm happy and proud of myself. I am feeling much more confident every day, and that seems to make the learning experience more manageable. 
+ 
+It's nice having met all these other people learning code with me. And have like-minded people to hang out with during the day. We all learn from each other, help each other, and it's fun to talk about stuff that we all like and understand. It's like that saying of safety in numbers. It's nice to have people who are learning with me so I can ask them for help if I need to, or help them if I can.
+ 
+We were all talking about the stress levels and the uncertainty we feel, and I was so relieved to hear that I wasn't the only one. There is something very comforting in knowing that some of the other students were feeling the same as me. Just like we share our knowledge, we share the same fears, as well. 
+ 
+I am coping with the stress much better. I guess my confidence is growing as I learn more and make it through the assignments. I am enjoying it more, too, so that's good. It makes learning more relaxed when you are not paralyzed with fear or worrying all the time that you won't understand or fearing failure. 
+ 
+I have been thinking about all the different ways I can use my new skills as a coder. There are many various opportunities that I never really thought of before. Coders can work anywhere and in a lot of different areas. Writing codes for apps, computer systems, databases, develop websites, teaching, so much! 
+ 
+It's also comforting to be going into an occupation where there will be a need for coders. Until they can program a computer to program itself and write code, I will be fine. 
+ 
+It's enriching to be learning something new as an adult. It's taken quite a bit of adjustment, and I've had to concentrate and focus on getting my homework done. It's funny how that skill leaves when you no longer have to use it. 
+ 
+Managing my time has been a learning experience, as well. I already had a full schedule, so it was quite an adjustment to fit in classes and homework. I'm getting better at it, and it's coming much more comfortable as I learn and understand more about coding.
+ 
+The adjustments to my and my family's life and schedule will be well worth the effort when I am finally a certified coder and can find rewarding work. It takes a lot of time and patience, and I need to take the time to practice a lot, so it becomes natural and second nature to me. As long as I stay motivated and enjoy the learning process, I will be happy and make it through the classes. 
+ 
+I look forward each week to the new lessons, and I'm very proud of myself for doing this and getting through it. My family has been a great support, and so have my fellow students.
+ 
