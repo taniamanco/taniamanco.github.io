@@ -1,18 +1,16 @@
 ---
 layout: post
-title:  "How to write a Rspec in Ruby"
+title:  "How to write a RSpec in Ruby"
 date:   2019-09-21 08:00:00 -0400
-categories: Test Driven
+categories: test driven
 ---
 
 **How To Write A Spec Test**
 
-Some things are dear to engineers and programmers during the software development process. One such thing is a spec test. Rspec file is a document that is typically written by an engineer to set out the requirements and determine how a particular feature, project, or service will operate from a technical perspective. The document highlights the issues and conditions that have to meet before a project comes to life. A spec test forces the developer to think through complex issues and bring everyone in their team on the same page. Rspec doc makes sure that you don't waste time on dead-end solutions or create faulty features or elements. 
+Some things are dear to engineers and programmers during the software development process. One such thing is a spec test. RSpec file is a document that is typically written by an engineer to set out the requirements and determine how a particular feature, project, or service will operate from a technical perspective. The document highlights the issues and conditions that have to meet before a project comes to life. A spec test forces the developer to think through complex issues and bring everyone in their team on the same page. RSpec doc makes sure that you don't waste time on dead-end solutions or create faulty features or elements. 
 While most engineers don't see the need to disseminate, write, or update a tech spec, it may have more benefits than they may realize. However, for it to have more utility, it should be thoughtfully and intuitively-written. Writing a practical spec test is a skill as must incorporate a few things. However, before we go into the details, let's look at some of its advantages.
 
-
 **Benefits of a Thoughtfully-Written Tech Spec**
-
 
 It Improves the Chances of Releasing Bug-Free Products
 A comprehensive spec test lays out the ideas to a broad audience, thereby improving the chances of a bug or a regression being spotted sooner than later. 
@@ -67,38 +65,32 @@ Divide all your work into core accomplishment and assign dates to ensure that th
 let's check the following example: 
 
 ```ruby
-Require 'spec_helper.'
-    require_relative '../lib/palindrome'
-    
+require 'spec_helper.'
+require_relative '../lib/palindrome'
 
-    RSpec.describe Palindrome do
-      describe '#check_for_palindrome' do
-        let(:palindrome) { Palindrome.new }
+describe Palindrome do
+  describe '#check_for_palindrome' do
+    let(:palindrome) { Palindrome.new }
+
+    it 'returns true when given a palindrome' do
+      word = 'level'
       
-        it 'returns true when given a palindrome' do
-          word = 'level'
+      result = palindrome.check_for_palindrome(word)
+      
+      expect(result).to be true
+    end
     
-
-          result = palindrome.check_for_palindrome(word)
-    
-
-          expect(result).to be true
-        end
-    
-
-        it 'returns false when not given a palindrome' do
-          word = 'fox'
-    
-
-          result = palindrome.check_for_palindrome(word)
-    
-
-          expect(result).to be false
-        end
-        
-    end 
-End
+    it 'returns false when not given a palindrome' do
+      word = 'fox'
+      
+      result = palindrome.check_for_palindrome(word)
+      
+      expect(result).to be false
+    end
+  end
+end
 ```
+
 This is an example of how will check for a palindrome without edge-cases to make it clear. 
 
 First, we will require the 'spec_helper' gem and then we will require_relative the file we would like to test. 
