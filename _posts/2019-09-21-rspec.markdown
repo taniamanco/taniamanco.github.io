@@ -8,7 +8,7 @@ categories: test driven
 **How To Write A Spec Test**
 
 Some things are dear to engineers and programmers during the software development process. One such thing is a spec test. 
-RSpec file is a document that is typically written by an engineer to set out the requirements and determine how a 
+[RSpec](https://rspec.info/) file is a document that is typically written by an engineer to set out the requirements and determine how a 
 particular feature, project, or service will operate from a technical perspective. The document highlights the issues 
 and conditions that have to meet before a project comes to life. A spec test forces the developer to think through 
 complex issues and bring everyone in their team on the same page. RSpec doc makes sure that you don't waste time on 
