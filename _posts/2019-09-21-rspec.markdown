@@ -3,99 +3,158 @@ layout: post
 title:  "How to write a RSpec in Ruby"
 date:   2019-09-21 08:00:00 -0400
 categories: test driven
-published: false
 ---
 
 **How To Write A Spec Test**
 
-Some things are dear to engineers and programmers during the software development process. One such thing is a spec test. RSpec file is a document that is typically written by an engineer to set out the requirements and determine how a particular feature, project, or service will operate from a technical perspective. The document highlights the issues and conditions that have to meet before a project comes to life. A spec test forces the developer to think through complex issues and bring everyone in their team on the same page. RSpec doc makes sure that you don't waste time on dead-end solutions or create faulty features or elements. 
-While most engineers don't see the need to disseminate, write, or update a tech spec, it may have more benefits than they may realize. However, for it to have more utility, it should be thoughtfully and intuitively-written. Writing a practical spec test is a skill as must incorporate a few things. However, before we go into the details, let's look at some of its advantages.
+Some things are dear to engineers and programmers during the software development process. One such thing is a spec test. 
+RSpec file is a document that is typically written by an engineer to set out the requirements and determine how a 
+particular feature, project, or service will operate from a technical perspective. The document highlights the issues 
+and conditions that have to meet before a project comes to life. A spec test forces the developer to think through 
+complex issues and bring everyone in their team on the same page. RSpec doc makes sure that you don't waste time on 
+dead-end solutions or create faulty features or elements. 
+While most engineers don't see the need to disseminate, write, or update a tech spec, it may have more benefits than 
+they may realize. However, for it to have more utility, it should be thoughtfully and intuitively-written. Writing a 
+practical spec test is a skill as must incorporate a few things. However, before we go into the details, 
+let's look at some of its advantages.
 
 **Benefits of a Thoughtfully-Written Tech Spec**
 
 It Improves the Chances of Releasing Bug-Free Products
-A comprehensive spec test lays out the ideas to a broad audience, thereby improving the chances of a bug or a regression being spotted sooner than later. 
+A comprehensive spec test lays out the ideas to a broad audience, thereby improving the chances of a bug or a 
+regression being spotted sooner than later. 
 Point of Reference for Quick Iteration
-When the engineering stakeholders come to a consensus in the tech spec's stage on a given feature, it reduces contentions later in the course of the development process. The document acts as a point of reference in case some issues arise down the road.
+When the engineering stakeholders come to a consensus in the tech spec's stage on a given feature, it reduces 
+contentions later in the course of the development process. The document acts as a point of reference in case some 
+issues arise down the road.
 It Helps You to Document Your Code
-A tech spec is a documentation that is valuable in the implementation stage as well as after the launch. It defines what needs to be done before the implementation and after the start. It aids the uninformed developers to get in line and know the features and tradeoffs involved. 
+A tech spec is a documentation that is valuable in the implementation stage as well as after the launch. 
+It defines what needs to be done before the implementation and after the start. It aids the uninformed developers 
+to get in line and know the features and tradeoffs involved. 
 It ensures that your project features are producing the results you expected
-If you are working on a complex project, then you need to be sure that it is working with various inputs and not just the one you are working with. It can help you uncover and discover edge-cases and document them. 
+If you are working on a complex project, then you need to be sure that it is working with various inputs and not 
+just the one you are working with. It can help you uncover and discover edge-cases and document them. 
 How to Write a Spec Test
-Now that we understand the benefits of a spec test let's look at how you should write it. The document should follow a few guiding principles that engineers should follow when writing a spec test. These include:
+Now that we understand the benefits of a spec test let's look at how you should write it. The document should follow 
+a few guiding principles that engineers should follow when writing a spec test. These include:
 •   It should have a purpose. Defining the spec test's intention from the word go helps to maximize its utility. 
 •   Avoid the boring stuff and write only the essential things.
 •   You don't have to fill out everything since you are allowed to leave open-ended question when writing the spec test. 
-•   Always assume that everything you include in this document will persist for a long time even if some components and processes are bound to be improved in the future.
+•   Always assume that everything you include in this document will persist for a long time even if some components 
+and processes are bound to be improved in the future.
 The Key Sections of a Spec Test
 
 **Summary**
 
 Spec is the abstract section which seeks to answer the what/when/who/where questions. 
 Background
-In this section, you need to contextualize your project. Here you should answer questions such as: Why build it? What motivates you? Which problems do you want to solve? Have you made any previous efforts to solve this problem?
+In this section, you need to contextualize your project. Here you should answer questions such as: Why build it? 
+What motivates you? Which problems do you want to solve? Have you made any previous efforts to solve this problem?
 
 **Goals**
 
-If you have defined the goals and requirements of your projects in the background, this section can be optional. If not, this is an essential part of your spec test. The success of any project highly depends on having clear and precise goals. Highlight what you intend to achieve from your work in advance. 
+If you have defined the goals and requirements of your projects in the background, this section can be optional. 
+If not, this is an essential part of your spec test. The success of any project highly depends on having clear 
+and precise goals. Highlight what you intend to achieve from your work in advance. 
 Assumptions
-This section is also known as non-goals, and it plays a pivotal role in helping you limit the scope of your project and prevent ambiguity. This section should be readable, and thus bullets or numbers are recommended.
+This section is also known as non-goals, and it plays a pivotal role in helping you limit the scope of your project 
+and prevent ambiguity. This section should be readable, and thus bullets or numbers are recommended.
 
 **Plan**
 
-This is bound to be the most detailed part of your spec test. It highlights the engineering approach you will be taking if you have chosen a single course of action. If not, it can describe the various considerations you are contemplating to use. The complexity and thoroughness of this section depend on the spec's purpose and the target audience. Here, you can also incorporate a few illustrations displaying your project's interaction with existing systems. 
+This is bound to be the most detailed part of your spec test. It highlights the engineering approach you will be 
+taking if you have chosen a single course of action. If not, it can describe the various considerations you are 
+contemplating to use. The complexity and thoroughness of this section depend on the spec's purpose and the target 
+audience. Here, you can also incorporate a few illustrations displaying your project's interaction with existing systems. 
 
 **Open Questions**
 
-When writing a spec test, don't strain to fill all the gaps, the open questions section allows you to list them and keep on writing.
+When writing a spec test, don't strain to fill all the gaps, the open questions section allows you to list them and 
+keep on writing.
 
 **Security and Privacy**
 
-It is an excellent idea to think about data safety, encryption, and risks, no matter how small a project may seem. It is imperative to list how malicious users can exploit your project in this section. However, don't forget to mention the means you will use to curb all the risks you mentioned. 
+It is an excellent idea to think about data safety, encryption, and risks, no matter how small a project may seem. 
+It is imperative to list how malicious users can exploit your project in this section. However, don't forget to 
+mention the means you will use to curb all the risks you mentioned. 
 
 **Test Plan**
 
-Outline your testing strategy. This should include both the strategy within your engineering team and the manual test plan and automated test suites. 
+Outline your testing strategy. This should include both the strategy within your engineering team and the manual 
+test plan and automated test suites. 
 Deployment and Rollout
-Spell out the logistics and the scheduled operations for your product to go live. Consider things such as configuration management, database changes, secrets management, migrations, and the sign-off-process. 
+Spell out the logistics and the scheduled operations for your product to go live. Consider things such as 
+configuration management, database changes, secrets management, migrations, and the sign-off-process. 
 
 **Milestones**
 
-Divide all your work into core accomplishment and assign dates to ensure that the project is on the right track. Be truthful in this section. If a milestone delayed; make sure you note down in this section. 
+Divide all your work into core accomplishment and assign dates to ensure that the project is on the right track. 
+Be truthful in this section. If a milestone delayed; make sure you note down in this section. 
 
-let's check the following example: 
+**Is Palindrome**
+
+Now that we are familiar with the concept of Test Driven Development (TDD) lets check out a simple example of 
+sketching a spec which will help us verify that our [Palindrome](https://en.wikipedia.org/wiki/Palindrome) 
+class is working as expected.
+
+Before starting we will make sure that RSpec is installed:
+```
+gem install rspec
+```
+
+Now that we have everything ready. We will start with a spec `palindrome_spec.rb`:
 
 ```ruby
-require 'spec_helper.'
-require_relative '../lib/palindrome'
-
-describe Palindrome do
+RSpec.describe Palindrome do
   describe '#check_for_palindrome' do
     let(:palindrome) { Palindrome.new }
 
     it 'returns true when given a palindrome' do
       word = 'level'
-      
+
       result = palindrome.check_for_palindrome(word)
-      
+
       expect(result).to be true
     end
-    
+
     it 'returns false when not given a palindrome' do
       word = 'fox'
-      
+
       result = palindrome.check_for_palindrome(word)
-      
+
       expect(result).to be false
     end
   end
 end
 ```
 
-This is an example of how will check for a palindrome without edge-cases to make it clear. 
+Running the spec at this stage will fail (obviously) since we don't have our `Palindrome` class defined. 
+Let's create the class `palindrome.rb`:
+```ruby
+class Palindrome
+  def check_for_palindrome(subject)
+    subject.reverse == subject
+  end
+end
+````
 
-First, we will require the 'spec_helper' gem and then we will require_relative the file we would like to test. 
-You can see we start with Rspec.describe and the name of our method and we expect it to DO something. What are we looking for? We are looking for the given word return same as was provided by the user. 
-We are passing 'Level' & 'fox'. We expect it to return true. 
+And include it in our spec `palindrome_spec.rb`:
+```ruby
+require './palindrome.rb'
 
-in this case, we can also check for cases as symbols, words with certain letter count, lower/upper case, etc., its all about your choice as a designer.
+...
+```
+
+Now, it's time to run the spec:
+```
+rspec palindrome_spec.rb
+```
+
+As we can see below, the test passed and everything works as expected:
+```
+Finished in 0.01377 seconds (files took 0.34484 seconds to load)
+2 examples, 0 failures
+```
+
+While this is a naive example it's all what it takes to start. Build your way through the test (spec) by first describing 
+and validating the expected functionality. Once that is defined implement the unit (class,method,program). 
