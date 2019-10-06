@@ -2,10 +2,8 @@
 layout: post
 title:  "ROR in three weeks"
 date:   2019-10-06 08:00:00 -0400
-categories: Mom in tech learning apps
+categories: learning ruby rails
 ---
-
-**ROR in three weeks**
 
 Its the end of the ninth week into the Coding Bootcamp, which makes it's precisely the middle of my way to become a knowledgable developer.  Past three weeks, I was learning Ruby on Rails with all the "magical" things this framework has to offer. The past three weeks flew by so fast; I still can't believe it. The first week was full of lectures and more specific practice about smaller topics such as forms and more complex functionality. The first week I felt very confident with my knowledge level, but it came to colossal self-doubt later in the second week. 
 
