@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Modle 2 - Ruby on rails"
+title:  "Module 2 - Ruby on rails"
 date:   2019-09-28 08:00:00 -0400
-categories: Mom in tech getting familiar with rails
+categories: learning ruby rails
 ---
 
 **Week #8**
