@@ -4,7 +4,6 @@ title:  "Virtual Museum js"
 date:   2019-12-27 08:00:00 -0400
 categories: from zero to tech
 ---
-##Virtual Museum
 
 The Virtual Museum application allows users to express their taste in art through virtually curated exhibits.  The App integrates various art/photography sources such as Unsplash (https://unsplash.com) and serves as an excellent way to show the fantastic work of artists and photographers around the world. 
 
