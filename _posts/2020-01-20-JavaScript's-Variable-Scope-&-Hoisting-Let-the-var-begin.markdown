@@ -165,5 +165,4 @@ console.log(d, e)
 ```
 In this case d will rise an error of undifeined, d defined as let variable while var was accssible out side ot the function. 
 
-resources:
-mdn.org
+resources: [MDN](https://developer.mozilla.org/en-US/)
