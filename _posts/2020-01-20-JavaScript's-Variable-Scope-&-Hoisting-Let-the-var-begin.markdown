@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "JavaScript's Variable Scope & Hoisting - Let the var begin."
+title:  "JavaScript's Variable Scope & Hoisting - Let the var begin"
 date:   2020-01-20 08:00:00 -0400
 categories: from zero to tech
 ---
@@ -17,8 +17,8 @@ Let's examine the following example:
 ```
 function innerScopeEx () {
   let innerScope= "I'm accsesble only inside this function";
-    console.log("In function");
-    console.log(innerScope);
+  console.log("In function");
+  console.log(innerScope);
 }
 console.log(innerScope);
 
@@ -31,8 +31,8 @@ Will work the same with var declaration.
 let globalScope = "I'm accessible on the global scope";
 
 function globalScopeEx(){
-    console.log("In function");
-    console.log(globalScope); 
+  console.log("In function");
+  console.log(globalScope); 
 }
 console.log("out of function");
 console.log(globleScope); 
@@ -96,7 +96,7 @@ Another example for Hoisting:
 ```
 name = "Tania";
 city = "NYC"; 
-  console.log(  " My name is  " + name +  ", " + "I live in " + city);
+console.log(  " My name is  " + name +  ", " + "I live in " + city);
 var name, city;
 ```
 in this example, we initialized first and declared only later (Will discuss why its var and not let later on)
@@ -144,26 +144,25 @@ For example:
 scopping();
 
 function scopping () {
-let a = "One";
-var b = "Two";
-const c = "Three";
- if (true){
- a = "Four";
- b = "Five";
-c = "Six"
-}
-console.log(a, b, c)
+  let a = "One";
+  var b = "Two";
+  const c = "Three";
+  if (true) {
+    a = "Four";
+    b = "Five";
+    console.log(a, b)
+    c = "Six";
+  }
 }
 ```
-Will print Four, Five, and an error because const cant be reassigned. 
+Will print Four, Five, and an error because const can't be reassigned. 
 ```
 function scoppingEx () {
-let d = "One";
-var e = "Two";
+  let d = "One";
+  var e = "Two";
 }
 console.log(d, e)
 ```
 In this case d will rise an error of undifeined, d defined as let variable while var was accssible out side ot the function. 
 
-resources:
-mdn.org
+resources: [MDN](https://developer.mozilla.org/en-US/)
